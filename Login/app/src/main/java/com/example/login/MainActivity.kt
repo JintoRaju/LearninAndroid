@@ -22,36 +22,27 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        //binding.button.setOnKeyListener( );
+
+   //     binding.button.setOnClickListener {
+
+//            var email  = binding.emailAddress.text.toString();
+//            var password  = binding.password.text.toString();
+//            Log.i("MainActivity", "OnCreate: email $email , password : $password" , );
+//
+//            var message = getString(R.string.messageText,email,password);
+//
+//            showMessage(message)
+//
+//            Snackbar.make(it, message , Snackbar.LENGTH_INDEFINITE)
+//                .setAction( "moreInfo") {showMessage(message)}
+//                .show ();
 
 
-       // View.OnKeyListener l = ;
-        binding.button.setOnKeyListener { view: View, i: Int, keyEvent: KeyEvent ->
-
-           return@setOnKeyListener true;
-        }
-
-
-        binding.button.setOnClickListener {
-
-            var email  = binding.emailAddress.text.toString();
-            var password  = binding.password.text.toString();
-            Log.i("MainActivity", "OnCreate: email $email , password : $password" , );
-
-            var message = getString(R.string.messageText,email,password);
-
-            showMessage(message)
-
-            Snackbar.make(it, message , Snackbar.LENGTH_INDEFINITE)
-                .setAction( "moreInfo") {showMessage(message)}
-                .show ();
-
-
-        }
+ //       }
     }
 
-    private fun showMessage(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-    }
+//    private fun showMessage(message: String) {
+//        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+//    }
 }
 
