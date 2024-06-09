@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp2</string>
+    <string name="in_the_middle">In the middle</string>
+    <string name="button">Button</string>
+    <string name="button2">Button</string>
+    <string name="middle">middle</string>
+</resources>
