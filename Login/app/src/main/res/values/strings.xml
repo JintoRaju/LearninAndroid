@@ -3,4 +3,5 @@
     <string name="emailhint">your email here</string>
     <string name="password">Password</string>
     <string name="ButtonLabel">Submit</string>
+    <string name="messageText">email :%s  , password : %s</string>
 </resources>
